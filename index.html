@@ -52,6 +52,16 @@
             width: 4rem !important;
             height: 2.4rem !important;
         }
+
+        @media only screen and (max-width: 768px) {
+            .web-whatsapp {
+                display: none;
+            }
+
+            .mobile-whatsapp {
+                display: inline;
+            }
+        }
     </style>
 </head>
 
@@ -63,13 +73,13 @@
                     <table class="main" bgcolor="#fff" width="600" border="0" cellspacing="0" cellpadding="0">
                         <tbody>
                             <tr>
-                                <td width="100%" height="10" style="line-height: 10px; font-size: 1rem">&nbsp;</td>
+                                <td width="100%" height="10" style="line-height: 1rem; font-size: 1rem">&nbsp;</td>
                             </tr>
                             <tr>
-                                <td align="center"><a href="#" style="text-decoration: underline">View this mail in your
-                                        browser.
-                                        Click
-                                        here &#8250;</a>
+                                <td align="center" style="line-height: 1.4rem; font-size: 1.2rem">
+                                    <a target="_blank" href="#" style="text-decoration: underline">
+                                        View email in browser.
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
@@ -82,29 +92,33 @@
                                             <table height="60" cellspacing="0" cellpadding="0">
                                                 <tr>
                                                     <td width="20">&nbsp;</td>
-                                                    <td width="100"><img src="assets/logos-png/techmall blue.png"
-                                                            alt="techmall blue">
+                                                    <td width="100"><a target="_blank"
+                                                            href="https://techmall.com.ng"><img
+                                                                src="assets/logos-png/techmall blue.png"
+                                                                alt="techmall blue"></a>
                                                     </td>
                                                     <td width="316">&nbsp;</td>
                                                     <td width="124">
                                                         <table width="124" cellspacing="0" cellpadding="0">
                                                             <tr>
                                                                 <td>
-                                                                    <a href="https://www.facebook.com/TechmallNigeria">
+                                                                    <a target="_blank"
+                                                                        href="https://www.facebook.com/TechmallNigeria">
                                                                         <img src="assets/icons/facebook-colour.svg"
                                                                             alt="facebook-colour">
                                                                     </a>
                                                                 </td>
                                                                 <td width="20">&nbsp;</td>
                                                                 <td>
-                                                                    <a href="https://www.instagram.com/techmallnigeria">
+                                                                    <a target="_blank"
+                                                                        href="https://www.instagram.com/techmallnigeria">
                                                                         <img src="assets/icons/instagram-colour.svg"
                                                                             alt="instagram-colour">
                                                                     </a>
                                                                 </td>
                                                                 <td width="20">&nbsp;</td>
                                                                 <td>
-                                                                    <a
+                                                                    <a target="_blank"
                                                                         href="https://www.youtube.com/channel/UCODaMx58ENhpSehwVv8lXKw">
                                                                         <img src="assets/icons/youtube-colour.svg"
                                                                             alt="youtube-colour">
@@ -112,8 +126,14 @@
                                                                 </td>
                                                                 <td width="20">&nbsp;</td>
                                                                 <td>
-                                                                    <a
+                                                                    <a target="_blank" class="web-whatsapp"
                                                                         href="https://api.whatsapp.com/send?phone=002348036649000">
+                                                                        <img src="assets/icons/whatsapp-colour.svg"
+                                                                            alt="whatsapp-colour">
+                                                                    </a>
+                                                                    <a target="_blank" class="mobile-whatsapp"
+                                                                        href="https://api.whatsapp.com/send?phone=+2348036649000"
+                                                                        style="display: none">
                                                                         <img src="assets/icons/whatsapp-colour.svg"
                                                                             alt="whatsapp-colour">
                                                                     </a>
@@ -134,15 +154,18 @@
                                             <td align="center" style="font-size: 1.1rem;">
                                                 <table width="446" cellspacing="0" cellpadding="0">
                                                     <tr>
-                                                        <td align="center"><a href="#">ANDROID PHONES</a></td>
+                                                        <td align="center"><a target="_blank" href="#">ANDROID
+                                                                PHONES</a></td>
                                                         <td width="20">&nbsp;</td>
-                                                        <td align="center"><a href="#">IOS PHONES</a></td>
+                                                        <td align="center"><a target="_blank" href="#">IOS PHONES</a>
+                                                        </td>
                                                         <td width="20">&nbsp;</td>
-                                                        <td align="center"><a href="#">LAPTOPS</a></td>
+                                                        <td align="center"><a target="_blank" href="#">LAPTOPS</a></td>
                                                         <td width="20">&nbsp;</td>
-                                                        <td align="center"><a href="#">TELEVISIONS</a></td>
+                                                        <td align="center"><a target="_blank" href="#">TELEVISIONS</a>
+                                                        </td>
                                                         <td width="20">&nbsp;</td>
-                                                        <td align="center"><a href="#">PRINTERS</a></td>
+                                                        <td align="center"><a target="_blank" href="#">PRINTERS</a></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -189,15 +212,16 @@
                                                     style="color:#000">
                                                     <tr width="580" align="center">
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -220,8 +244,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -241,15 +265,16 @@
                                                         </td>
 
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -272,8 +297,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -290,15 +315,16 @@
                                                             &nbsp;
                                                         </td>
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -321,8 +347,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -341,15 +367,16 @@
                                                     </tr>
                                                     <tr width="580" align="center">
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -372,8 +399,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -393,15 +420,16 @@
                                                         </td>
 
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -424,8 +452,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -442,15 +470,16 @@
                                                             &nbsp;
                                                         </td>
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -473,8 +502,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -493,15 +522,16 @@
                                                     </tr>
                                                     <tr width="580" align="center">
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -524,8 +554,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -545,15 +575,16 @@
                                                         </td>
 
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -576,8 +607,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -594,15 +625,16 @@
                                                             &nbsp;
                                                         </td>
                                                         <td class="col item" width="180" align="center">
-                                                            <a href="#">
+                                                            <a target="_blank"
+                                                                href="https://www.techmall.com.ng/hp-laserjet-pro-mfp-m130a-printer-g3q57a.html">
                                                                 <table width="180" border="0" , cellspacing="0" ,
                                                                     cellpadding="0">
                                                                     <tr>
                                                                         <td width="180" height="140" align="center"
                                                                             class="product__img__container">
                                                                             <img class="product__img"
-                                                                                src="assets/pictures/HP_photosmart.png"
-                                                                                style=" height: 100%; display: block" />
+                                                                                src="assets/pictures/hp-laserjet.jpg"
+                                                                                style=" height: 14rem; width: auto; display: block" />
                                                                             <span align="center"
                                                                                 class="product__discount">-15%
                                                                             </span>
@@ -625,8 +657,8 @@
                                                                         <td align="center" class="product__price"
                                                                             height=""
                                                                             style="font-size:1.6rem; font-weight: 500;">
-                                                                            &#8358;49,000 <del
-                                                                                style="font-size:1.3rem; color:#E14646">&#8358;86,000</del>
+                                                                            &#8358;43,100 <del
+                                                                                style="font-size:1.3rem; color:#E14646">&#8358;48,000</del>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
@@ -649,7 +681,7 @@
                                                             <tr>
                                                                 <td width="210">&nbsp;</td>
                                                                 <td width="160" height="40" align="center">
-                                                                    <a href="#"
+                                                                    <a target="_blank" href="#"
                                                                         style="background:#0870CB; width: 16rem; height: 4rem; line-height: 4rem; color: #fff; display: block; position: relative"
                                                                         align="center">
                                                                         <table width="160" border="0" cellpadding="0" ;
@@ -703,7 +735,7 @@
                                                     </tr>
 
                                                     <tr>
-                                                        <td align="center" width="600"><a href="#"
+                                                        <td align="center" width="600"><a target="_blank" href="#"
                                                                 style="text-decoration: underline">www.techmall.com.ng</a>
                                                         </td>
                                                     </tr>
@@ -762,17 +794,22 @@
                                                         <td align="center" style="font-size: 1.1rem;">
                                                             <table width="446" cellspacing="0" cellpadding="0">
                                                                 <tr>
-                                                                    <td align="center"><a href="#">ABOUT</a>
+                                                                    <td align="center"><a target="_blank"
+                                                                            href="#">ABOUT</a>
                                                                     </td>
                                                                     <td width="20">&nbsp;</td>
-                                                                    <td align="center"><a href="#">SELL ON TECHMALL</a>
+                                                                    <td align="center"><a target="_blank" href="#">SELL
+                                                                            ON TECHMALL</a>
                                                                     </td>
                                                                     <td width="20">&nbsp;</td>
-                                                                    <td align="center"><a href="#">FAQ</a></td>
+                                                                    <td align="center"><a target="_blank"
+                                                                            href="#">FAQ</a></td>
                                                                     <td width="20">&nbsp;</td>
-                                                                    <td align="center"><a href="#">CONTACT US</a></td>
+                                                                    <td align="center"><a target="_blank"
+                                                                            href="#">CONTACT US</a></td>
                                                                     <td width="20">&nbsp;</td>
-                                                                    <td align="center"><a href="#">RETURN POLICY</a>
+                                                                    <td align="center"><a target="_blank"
+                                                                            href="#">RETURN POLICY</a>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -799,10 +836,10 @@
                                                                         to
                                                                         receive our email newsletters under the terms of
                                                                         our
-                                                                        <a href="#"
+                                                                        <a target="_blank" href="#"
                                                                             style="text-decoration: underline">Privacy
                                                                             policy</a>. No longer want to receive this
-                                                                        email? <a href="#"
+                                                                        email? <a target="_blank" href="#"
                                                                             style="text-decoration: underline">Unsubscribe</a>
                                                                     </td>
                                                                     <td width="85">
